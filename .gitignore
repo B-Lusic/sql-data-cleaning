@@ -1,0 +1,20 @@
+# Database backups & raw extracts
+*.bak
+*.mdf
+*.ldf
+*.csv
+*.xlsx
+*.zip
+
+# Exclude raw data files except folder structure marker
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# System & IDE junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
